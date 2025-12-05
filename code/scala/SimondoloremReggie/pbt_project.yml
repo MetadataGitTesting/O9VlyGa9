@@ -1,0 +1,71 @@
+name: bart.barton
+description: high-level
+version: 0.0.1
+author: rlyv5vty.cuejmvch@nhatjs0e.com
+language: scala
+buildSystem: ''
+buildSystemDetails:
+  artefactID: bartbarton
+  parentArtefactID: ''
+  buildSystem: maven
+  author: null
+  createdAt: '2025-12-05 20:43:36'
+pipelines:
+  pipelines/pipeline1:
+    name: pipeline1
+    description: Really solid info
+    author: rlyv5vty.cuejmvch@nhatjs0e.com
+    mode: batch
+    artefactID: ''
+    language: scala
+    createdAt: '2025-12-05 20:43:36'
+    datasets:
+      inputs: []
+      outputs: []
+    subgraphs: []
+    dependencies: {}
+datasets: {}
+templates: {}
+jobs: {}
+gemContainer:
+  languageVersion: 2.12.15
+  gemLibsVersion: 1.1.26
+  gems: {}
+  dependencies: null
+functions:
+  author: null
+  createdAt: '2025-12-05 20:43:36'
+  udfs: {}
+  udafs: {}
+  expressions: {}
+  airflowFunctions: {}
+  businessRules:
+    businessRules/br1:
+      name: br1
+      description: ''
+      tags: []
+      inputs: []
+      outputs: []
+      author: rlyv5vty.cuejmvch@nhatjs0e.com
+      createdAt: '2022-12-15 18:04:50'
+subgraphs: {}
+sqlModels: {}
+sqlSnapshots: {}
+sqlTests: {}
+sqlMacros: {}
+sqlSeeds: {}
+sqlSources: {}
+sqlUnreferencedSources: {}
+sqlPipeline: null
+dependencies:
+- modifiedAt: '2025-12-05T20:43:36.706759Z'
+  name: plibMaven
+  version: 8.16.0-SNAPSHOT
+  id: '272254325'
+  createdAt: '2025-12-05T20:43:36.706759Z'
+  type: plibMaven
+projectDependencies: {}
+flags:
+  shouldAddDefaultDependenciesIfAbsent: true
+pipelineConfigurations: {}
+projectConfigurations: {}
